@@ -2,14 +2,14 @@
 	"name": "Youtube",
 	"description": "One of the biggest video platforms owned by Google",
 	"author": "FUTO",
-	"authorUrl": "https://futo.org",
+	"authorUrl": "vila",
 	"platformUrl": "https://youtube.com",
 	"sourceUrl": "https://plugins.grayjay.app/Youtube/YoutubeConfig.json",
 	"repositoryUrl": "https://gitlab.futo.org/videostreaming/plugins/youtube",
 	"scriptUrl": "./YoutubeScript.js",
 
-	"version": 246,
-	"iconUrl": "./youtube.png",
+	"version": 2,
+	"iconUrl": "./youtubeAlt.png",
 	"id": "35ae969a-a7db-11ed-afa1-0242ac120002",
 	
 	"scriptSignature": "",
@@ -296,70 +296,8 @@
 
 
 	"changelog": {
-		"246": [
-			"Fix: Cipher fix"
-		],
-		"245": [
-			"Fix: Fix view counts for videos on home page for some users"
-		],
-		"244": [
-			"Fix: Support additional video models (may fix home page for some)"
-		],
-		"243": [
-			"Fix: Cipher fix",
-			"Fix: Various possible 'runs' errors",
-			"Debug: Add additional logging for solving home issue"
-		],
-		"242": [
-			"Fix: Not all members only videos being filtered out",
-			"Fix: Certain playlist urls not being detected properly",
-			"Feature: Setting 'Allow Member Content' which will show channel member content (prefixed with [MEMBER])",
-			"Feature: Mark which audio track is the 'original' audio (will be used in upcoming Grayjay version)"
-		],
-		"241": [
-			"Fix: Cipher fix"
-		],
-		"240": [
-			"Fix: Cipher fix (hopefully final one for a while)",
-			"Fix: Replacing & Unicode in author titles",
-			"Fix: 'simpleText' parsing failures fallback to empty values for now",
-			"Fix: Correct repo url"
-		],
-		"239": [
-			"Fix: More advanced cipher fixes"
-		],
-		"238": [
-			"Fix: Cipher edgecase"
-		],
-		"237": [
-			"Fix: Import Subscriptions on some accounts",
-			"Improvement: Playback tracker optimalization in certain scenarios",
-			"Improvement: Warning when toggling AV1 setting that it requires UMP for now"
-		],
-		"236": [
-			"Fix Android 9 error (remove query hardware codecs)"
-		],
-		"235": [
-			"Fix Cipher"
-		],
-		"234": [
-			"Improvement: Filter member-only videos from channel contents",
-			"Improvement: Possible UMP redirect fix"
-		],
-		"233": [
-			"Minor hotfix"
-		],
-		"232": [
-			"Feature: Verify IOS Playback setting (true by default), checks if iOS sources can be played beyond 60 seconds, or fallback to others.",
-			"Feature: Channel shorts fetching support (may require app update to view new channel tab)"
-		],
-		"231": [
-			"Fix: UMP failing on initial load"
-		],
-		"227": [
-			"Feature: Opt-in AV1 support",
-			"Feature: UMP MP4 support (fixes no audio or only 360p for older videos)",
-			"Improve: UMP Disconnect toasts now optional"
+		"2": [
+			"Initial fix"
 		]
 	}
 }
